@@ -57,7 +57,7 @@ const Header = () => {
   }, [cartItems]);
 
   return (
-    <div className="flex justify-between bg-indigo-200 text-black py-4 px-8 shadow-lg h-24">
+    <div className="flex justify-between bg-wheat-300 text-black py-4 px-8 shadow-lg h-24">
       <div className="flex items-center">
         <img className="w-24 mr-5" src={logo} alt="Logo" />
       </div>
@@ -93,7 +93,7 @@ const Header = () => {
         {user && (
           <div>
             <button
-              className=" bg-blue-600 rounded-lg p-2 my-3 text-white text-lg font-light"
+              className=" bg-blue-500 rounded-lg p-2 my-3 text-black text-lg font-light"
               onClick={handleSignOut}
             >
               Sign Out
